@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+    <!-- tailwind cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- daisy ui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.24.0/dist/full.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <header class="header" id="home">
+        <div class="nav">
+            <div class="navigation container">
+                <div class="logo">
+                    <h1>BestFive<span>.</span></h1>
+                </div>
+                <div class="menu">
+                    <div class="top-nav">
+                        <div class="logo">
+                            <h1>FootBal<span>.</span></h1>
+                        </div>
+                        <div class="close">
+                            <i class="fa fa-times"></i>
+                        </div>
+                    </div>
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#service" class="nav-link">Service</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#team" class="nav-link">Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <img src="img/Lionel-Messi-2018.webp" alt="">
+        <div class="hero">
+
+            <h1>Select Your Best Five</h1>
+            <p>If you want to enlist in a great Football game at no cost,then look no further than our website.
+                <br>Pick your squad of players from given budget,set up a league , then brag about who knows more
+                <br>than the other down at the pub.
+            </p>
+            <a href="#">Select Player</a>
+        </div>
+        <div class="social-link">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-telegram"></i>
+        </div>
+    </header>
+    <section class=" w-10/12 mx-auto mt-10 mb-40">
+        <div class="grid grid-cols-3 gap-4 divide-x">
+
+            <div class="grid grid-cols-3 gap-4">
+                <!-- all players -->
+                <!-- player-1 -->
+                <div>
+                    <div class="card w-full bg-base-100 shadow-xl gap-4">
+                        <figure class="px-10 pt-10">
+                            <img src="image/p-1.png" class="w-full h-60" alt="Shoes" class="rounded-xl " />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <h2 class="card-title">Vitor Machado</h2>
+                            <p>36 Goals <span>. 120 assist</span></p>
+
+                            <div class="card-actions">
+                                <button class="btn btn-primary" onclick="select(this)">Select</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ... -->
+
+                <!-- player-2-->
+                <div>
+                    <div class="card w-full bg-base-100 shadow-xl gap-4">
+                        <figure class="px-10 pt-10">
+                            <img src="image/p-2.png" class="w-full h-60" alt="Shoes" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <h2 class="card-title">Neymar Jr</h2>
+                            <p>36 Goals <span>. 120 assist</span></p>
+
+                            <div class="card-actions">
+                                <button class="btn btn-primary" onclick="select(this)">Select</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ... -->
+
+                <!-- player-3-->
+                <div>
+                    <div class="card w-full bg-base-100 shadow-xl gap-4">
+                        <figure class="px-10 pt-10">
+                            <img src="image/p-3.png" class="w-full h-60" alt="Shoes" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <h2 class="card-title">Kylian Mbappe</h2>
+                            <p>36 Goals <span>. 120 assist</span></p>
+
+                            <div class="card-actions">
+                                <button class="btn btn-primary" onclick="select(this)">Select</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ... -->
+
+                <!-- player-4-->
+                <div>
+                    <div class="card w-full bg-base-100 shadow-xl gap-4">
+                        <figure class="px-10 pt-10">
+                            <img src="image/p-4.png" class="w-full h-60" alt="Shoes" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <h2 class="card-title">Lionel Messi</h2>
+                            <p>36 Goals <span>. 120 assist</span></p>
+
+                            <div class="card-actions">
+                                <button class="btn btn-primary" onclick="select(this)">Select</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ... -->
+
+                <!-- player-5 -->
+
+                <div>
+                    <div class="card w-full bg-base-100 shadow-xl gap-4">
+                        <figure class="px-10 pt-10">
+                            <img src="image/p-5.jpg" class="w-full h-60" alt="Shoes" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <h2 class="card-title">Sergio Ramos</h2>
+                            <p>36 Goals <span>. 120 assist</span></p>
+
+                            <div class="card-actions">
+                                <button class="btn btn-primary" onclick="select(this)">Select</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ... -->
+
+                <!-- player-6 -->
+                <div>
+                    <div class="card w-full bg-base-100 shadow-xl gap-4">
+                        <figure class="px-10 pt-10">
+                            <img src="image/p-6.png" class="w-full h-60" alt="Shoes" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <h2 class="card-title">Renato Sanches</h2>
+                            <p>36 Goals <span>. 120 assist</span></p>
+
+                            <div class="card-actions">
+                                <button class="btn btn-primary" onclick="select(this)">Select</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ... -->
+            </div>
+            <!-- ... -->
+            <div>
+                <h2 class="text-4xl">Selected player <span class="text-blue-500" id="total-selected-player">0</span>
+                </h2>
+                <div class="overflow-x-auto">
+                    <table class="table w-full">
+                        <!-- head -->
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th> Player Name</th>
+
+
+                            </tr>
+                        </thead>
+                        <tbody id="cart-playerName">
+                            <!-- row 1 -->
+                            <!-- <tr>
+                                <th>1</th>
+                                <td>Lionel Messi</td>
+
+                            </tr> -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+
+
+
+    <footer>
+        <p>Created By<span>codeSkill</span> | &copy; 2022 All Right Reserved</p>
+    </footer>
+</body>
+<script src="js/script.js"></script>
+
+</html>
