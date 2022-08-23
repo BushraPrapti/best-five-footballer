@@ -59,6 +59,21 @@ if (cartArray.length === 0) {
 }
 
 
+const calculatePlayer=()=>{
+  var value = document.getElementById("singleplayercost").value;
+  var cartLength = document.getElementById("cart-playerName")
+var cartlength = cartLength.childNodes.length;
+var sumPlayerCost = value*cartlength;
+document.getElementById("total-cost-player").innerText = sumPlayerCost;
+return sumPlayerCost;
+}
+const calculateTotal = () =>{
+  var managercost = document.getElementById("managercost").value;
+  var coachcost = document.getElementById("coachcost").value;
+sum = parseInt(managercost) + parseInt(coachcost) +calculatePlayer();
+  
+  document.getElementById("total-cost").innerText = sum;
+}
 
 
 

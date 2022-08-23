@@ -209,10 +209,15 @@
                         </tbody>
 
                     </table>
-                    <input type="text" placeholder="Enter text" onchange="getVal()">
-                    <h2 class="text-4xl">Total Cost <span class="text-blue-500" id="total-cost-player">0</span>
+                    <input class="form-control" id="singleplayercost" type="number" placeholder="Enter text" onchange="getVal()">
+                    <button class="btn btn-primary" id="" onclick="calculatePlayer()">Calculate</button>
+                    <h2 class="text-4xl">Total Cost <span class="text-blue-500" id="total-cost-player">0</span> </h2>
 
-
+                        <input class="form-control" id="managercost" type="number" placeholder="Manager Cost">
+                        <input class="form-control" id="coachcost" type="number" placeholder="Coach Cost">
+                        <button class="btn btn-primary" id="" onclick="calculateTotal()">Calculate Total</button>
+                  
+                        <h2 class="text-4xl">Total <span class="text-blue-500" id="total-cost">0</span></h2>
 
                 </div>
             </div>
