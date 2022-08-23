@@ -89,6 +89,8 @@ li {
 .logo h1 {
     font-size: 2.5rem;
     color: #fff;
+    margin-left: 2px;
+
 
 }
 
@@ -119,18 +121,25 @@ nav-link:visited {
 }
 
 /* hero */
-.hero {}
-
-
 
 .hero h1 {
     font-family: 'Berkshire Swash';
     font-size: 7rem;
     color: tomato;
+    margin-top: 60px;
+    margin-left: 100px;
+    margin-right: 800px;
+
+
+
 }
 
 .hero p {
     font-size: 1.5rem;
+    margin-top: 230px;
+    margin-right: 650px;
+    color: #fff;
+
 }
 
 
@@ -142,7 +151,8 @@ nav-link:visited {
     border-color: 1px salmon #dd9a05;
     background-color: #dd9a05;
     color: #fff;
-    margin-top: 2rem;
+    margin-top: 400px;
+    margin-right: 700px
 }
 
 .hero a:hover {
@@ -154,7 +164,7 @@ nav-link:visited {
 }
 
 .social-link {
-    margin-top: 500px;
+    margin-top: 100px;
     margin-left: 100px;
 }
 
